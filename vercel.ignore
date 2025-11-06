@@ -1,0 +1,5 @@
+node_modules/
+bapp/
+.idea/
+.dart_tool/
+*.iml
