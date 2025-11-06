@@ -23,3 +23,7 @@ mongoose
 
 // ✅ Export the app instead of listening directly
 module.exports = app;
+
+app.get('/', (req, res) => {
+  res.send('Backend is running successfully 🚀');
+});
